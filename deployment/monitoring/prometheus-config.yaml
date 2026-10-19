@@ -1,0 +1,5 @@
+global: {scrape_interval: 15s}
+scrape_configs:
+  - job_name: cardiorisk-api
+    metrics_path: /metrics
+    static_configs: [{targets: ["cardiorisk-api.cardiorisk.svc.cluster.local:80"]}]

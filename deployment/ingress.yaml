@@ -1,0 +1,13 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: cardiorisk-ingress
+  namespace: cardiorisk
+spec:
+  rules:
+    - host: cardiorisk.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend: {service: {name: cardiorisk-api, port: {number: 80}}}

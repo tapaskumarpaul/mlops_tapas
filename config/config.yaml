@@ -1,0 +1,7 @@
+project: cardiorisk
+random_state: 42
+test_size: 0.20
+cv_folds: 5
+primary_metric: roc_auc
+model_path: models/heart_disease_pipeline.joblib
+mlflow_experiment: cardiorisk-heart-disease
