@@ -2,7 +2,7 @@
 
 End-to-end educational MLOps implementation for binary heart-disease risk classification using the UCI Cleveland Heart Disease dataset.
 
-> **Safety:** This project is for educational assessment only. It is not a medical device and must not be used for diagnosis or treatment.
+> **Safety:** This project is for assessment only. It is not a medical device and must not be used for diagnosis or treatment.
 
 ## Quick start
 
@@ -46,6 +46,3 @@ MLflow UI: `http://127.0.0.1:5000`.
 
 ## Data attribution
 UCI Machine Learning Repository, Heart Disease dataset, DOI: 10.24432/C52P4X, CC BY 4.0. The download script retrieves the processed Cleveland file and creates `data/processed/heart_disease_clean.csv`.
-
-## Evidence
-Place genuine execution screenshots in the categorized `screenshots/` folders. Placeholder READMEs specify the required evidence; no execution evidence has been fabricated.
